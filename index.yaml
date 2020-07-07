@@ -1,9 +1,20 @@
 apiVersion: v1
 entries:
+  gitchart2:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2020-07-07T12:01:43.770522783+09:00"
+    description: A Helm chart for Kubernetes
+    digest: c8e6287c86e50ac94e58d63b55eb10872771d8e6ddc8e52f1314758a5c775c9d
+    name: gitchart2
+    type: application
+    urls:
+    - gitchart2-0.1.0.tgz
+    version: 0.1.0
   mygitchart:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2020-07-07T11:31:52.3090692+09:00"
+    created: "2020-07-07T12:01:43.771147874+09:00"
     description: A Helm chart for Git-repo-Practice
     digest: bb9832461f0dc93f1b07bf867bc416e9593a5502f06dd19e09c03aef69e4c926
     name: mygitchart
@@ -11,4 +22,4 @@ entries:
     urls:
     - mygitchart-0.1.0.tgz
     version: 0.1.0
-generated: "2020-07-07T11:31:52.308432218+09:00"
+generated: "2020-07-07T12:01:43.769614645+09:00"
