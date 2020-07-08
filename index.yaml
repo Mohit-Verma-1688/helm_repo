@@ -3,7 +3,7 @@ entries:
   gitchart2:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2020-07-08T20:00:36.452962775+09:00"
+    created: "2020-07-08T20:54:02.745648292+09:00"
     description: A Helm chart for Kubernetes
     digest: c8e6287c86e50ac94e58d63b55eb10872771d8e6ddc8e52f1314758a5c775c9d
     name: gitchart2
@@ -14,7 +14,17 @@ entries:
   mychart:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2020-07-08T20:00:36.453470194+09:00"
+    created: "2020-07-08T20:54:02.74640126+09:00"
+    description: A Helm chart for Kubernetes
+    digest: b2e9b58a5e1de2b02c8c821093b02a4e14d3afdceb7eb946e05517499fc1a907
+    name: mychart
+    type: application
+    urls:
+    - mychart-0.2.0.tgz
+    version: 0.2.0
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2020-07-08T20:54:02.746115015+09:00"
     description: A Helm chart for Kubernetes
     digest: 262c1e921c4d37dacefa4229fce51df6f5f8bfba055a1a4d06044656e51acb49
     name: mychart
@@ -25,7 +35,7 @@ entries:
   mygitchart:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2020-07-08T20:00:36.455222245+09:00"
+    created: "2020-07-08T20:54:02.747029353+09:00"
     description: A Helm chart for Git-repo-Practice
     digest: bb9832461f0dc93f1b07bf867bc416e9593a5502f06dd19e09c03aef69e4c926
     name: mygitchart
@@ -36,7 +46,7 @@ entries:
   mysql:
   - apiVersion: v1
     appVersion: 5.7.28
-    created: "2020-07-08T20:00:36.457508921+09:00"
+    created: "2020-07-08T20:54:02.751316681+09:00"
     description: Fast, reliable, scalable, and easy to use open-source relational
       database system.
     digest: 8e1c4283911e2d7259ee751ab89be47054d90f4cc5ac6e31d32ffa890e5b6a78
@@ -60,7 +70,7 @@ entries:
     version: 1.6.4
   - apiVersion: v1
     appVersion: 5.7.28
-    created: "2020-07-08T20:00:36.456369822+09:00"
+    created: "2020-07-08T20:54:02.748805619+09:00"
     description: Fast, reliable, scalable, and easy to use open-source relational
       database system.
     digest: 75a4b05fec9b5cf6de6850b03b81e7034eef41413357035e6d75d1cb5cff4813
@@ -82,4 +92,4 @@ entries:
     urls:
     - mysql-1.6.3.tgz
     version: 1.6.3
-generated: "2020-07-08T20:00:36.452290515+09:00"
+generated: "2020-07-08T20:54:02.745028881+09:00"
