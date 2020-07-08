@@ -3,7 +3,7 @@ entries:
   gitchart2:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2020-07-08T10:39:16.85632337+09:00"
+    created: "2020-07-08T17:54:12.595662735+09:00"
     description: A Helm chart for Kubernetes
     digest: c8e6287c86e50ac94e58d63b55eb10872771d8e6ddc8e52f1314758a5c775c9d
     name: gitchart2
@@ -14,7 +14,7 @@ entries:
   mygitchart:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2020-07-08T10:39:16.856873888+09:00"
+    created: "2020-07-08T17:54:12.596207493+09:00"
     description: A Helm chart for Git-repo-Practice
     digest: bb9832461f0dc93f1b07bf867bc416e9593a5502f06dd19e09c03aef69e4c926
     name: mygitchart
@@ -25,7 +25,31 @@ entries:
   mysql:
   - apiVersion: v1
     appVersion: 5.7.28
-    created: "2020-07-08T10:39:16.858204531+09:00"
+    created: "2020-07-08T17:54:12.599285226+09:00"
+    description: Fast, reliable, scalable, and easy to use open-source relational
+      database system.
+    digest: 8e1c4283911e2d7259ee751ab89be47054d90f4cc5ac6e31d32ffa890e5b6a78
+    home: https://www.mysql.com/
+    icon: https://www.mysql.com/common/logos/logo-mysql-170x115.png
+    keywords:
+    - mysql
+    - database
+    - sql
+    maintainers:
+    - email: o.with@sportradar.com
+      name: olemarkus
+    - email: viglesias@google.com
+      name: viglesiasce
+    name: mysql
+    sources:
+    - https://github.com/kubernetes/charts
+    - https://github.com/docker-library/mysql
+    urls:
+    - mysql-1.6.4.tgz
+    version: 1.6.4
+  - apiVersion: v1
+    appVersion: 5.7.28
+    created: "2020-07-08T17:54:12.59744752+09:00"
     description: Fast, reliable, scalable, and easy to use open-source relational
       database system.
     digest: 75a4b05fec9b5cf6de6850b03b81e7034eef41413357035e6d75d1cb5cff4813
@@ -47,4 +71,4 @@ entries:
     urls:
     - mysql-1.6.3.tgz
     version: 1.6.3
-generated: "2020-07-08T10:39:16.855513184+09:00"
+generated: "2020-07-08T17:54:12.595047445+09:00"
