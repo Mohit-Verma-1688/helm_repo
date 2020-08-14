@@ -3,9 +3,9 @@ entries:
   configmap:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2020-08-14T04:33:59.576301391Z"
+    created: "2020-08-14T12:12:16.894054625Z"
     description: Package version 1 for test
-    digest: 9315b02e3a504a4b6c3c0254a021dede8ca3b64c761216bcf52636f5710a2284
+    digest: f5bde211b90655db489015fa27e7a070cc460b41c02d29e2aea3b3369b593381
     name: configmap
     type: application
     urls:
@@ -14,7 +14,7 @@ entries:
   gitchart2:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2020-08-14T04:33:59.578695336Z"
+    created: "2020-08-14T12:12:16.894703233Z"
     description: A Helm chart for Kubernetes
     digest: c8e6287c86e50ac94e58d63b55eb10872771d8e6ddc8e52f1314758a5c775c9d
     name: gitchart2
@@ -25,7 +25,7 @@ entries:
   mychart:
   - apiVersion: v2
     appVersion: 1.1.0
-    created: "2020-08-14T04:33:59.584710127Z"
+    created: "2020-08-14T12:12:16.899813249Z"
     description: A Helm chart for testing nameoverride
     digest: 4fe031211074e42bc94b1e2aec74feb4785e43bdbf82c1445c692bc2a089b926
     name: mychart
@@ -35,7 +35,7 @@ entries:
     version: 0.6.0
   - apiVersion: v2
     appVersion: 1.1.0
-    created: "2020-08-14T04:33:59.584019209Z"
+    created: "2020-08-14T12:12:16.897583026Z"
     description: A Helm chart for testing nameoverride
     digest: 7112e39559abd36cbf90225d62df886d1d7099780894263d7252749a6241b1aa
     name: mychart
@@ -45,7 +45,7 @@ entries:
     version: 0.5.0
   - apiVersion: v2
     appVersion: 1.1.0
-    created: "2020-08-14T04:33:59.58327164Z"
+    created: "2020-08-14T12:12:16.897251886Z"
     description: A Helm chart for Kubernetes
     digest: e9dbc8a295cd408fd3faaa714bf9d12532cb3b3da97a448c86dfb444026e6b36
     name: mychart
@@ -55,7 +55,7 @@ entries:
     version: 0.4.0
   - apiVersion: v2
     appVersion: 1.1.0
-    created: "2020-08-14T04:33:59.58264431Z"
+    created: "2020-08-14T12:12:16.896533408Z"
     description: A Helm chart for Kubernetes
     digest: ef7745b88121370c0685d8427ff6d1561edd187de8c46ae433eb691cd2e20138
     name: mychart
@@ -65,7 +65,7 @@ entries:
     version: 0.3.0
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2020-08-14T04:33:59.581722081Z"
+    created: "2020-08-14T12:12:16.895935784Z"
     description: A Helm chart for Kubernetes
     digest: b2e9b58a5e1de2b02c8c821093b02a4e14d3afdceb7eb946e05517499fc1a907
     name: mychart
@@ -75,7 +75,7 @@ entries:
     version: 0.2.0
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2020-08-14T04:33:59.580745568Z"
+    created: "2020-08-14T12:12:16.895591795Z"
     description: A Helm chart for Kubernetes
     digest: 262c1e921c4d37dacefa4229fce51df6f5f8bfba055a1a4d06044656e51acb49
     name: mychart
@@ -86,7 +86,7 @@ entries:
   mygitchart:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2020-08-14T04:33:59.586113468Z"
+    created: "2020-08-14T12:12:16.900962514Z"
     description: A Helm chart for Git-repo-Practice
     digest: bb9832461f0dc93f1b07bf867bc416e9593a5502f06dd19e09c03aef69e4c926
     name: mygitchart
@@ -97,7 +97,7 @@ entries:
   mysql:
   - apiVersion: v1
     appVersion: 5.7.28
-    created: "2020-08-14T04:33:59.59314775Z"
+    created: "2020-08-14T12:12:16.905771516Z"
     description: Fast, reliable, scalable, and easy to use open-source relational
       database system.
     digest: 8e1c4283911e2d7259ee751ab89be47054d90f4cc5ac6e31d32ffa890e5b6a78
@@ -121,7 +121,7 @@ entries:
     version: 1.6.4
   - apiVersion: v1
     appVersion: 5.7.28
-    created: "2020-08-14T04:33:59.59074208Z"
+    created: "2020-08-14T12:12:16.903685421Z"
     description: Fast, reliable, scalable, and easy to use open-source relational
       database system.
     digest: 75a4b05fec9b5cf6de6850b03b81e7034eef41413357035e6d75d1cb5cff4813
@@ -143,4 +143,4 @@ entries:
     urls:
     - mysql-1.6.3.tgz
     version: 1.6.3
-generated: "2020-08-14T04:33:59.574388363Z"
+generated: "2020-08-14T12:12:16.893685419Z"
