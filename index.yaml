@@ -3,7 +3,7 @@ entries:
   configmap:
   - apiVersion: v2
     appVersion: 1.17.2
-    created: "2020-08-15T06:06:47.813119842Z"
+    created: "2020-08-15T09:30:41.369546403Z"
     description: Example of varialbles in this chart
     digest: 2fd0eed578e9e58837ef6b50d2ba00e7ee9771aa6d473bea9238a111b48e94ad
     name: configmap
@@ -13,7 +13,7 @@ entries:
     version: 0.8.0
   - apiVersion: v2
     appVersion: 1.17.1
-    created: "2020-08-15T06:06:47.812762111Z"
+    created: "2020-08-15T09:30:41.36904206Z"
     description: Example of range in this chart
     digest: 31a6a747d16d65d4b6afbbd41b6e982987580a8d066359af4e402b4bd6137c1f
     name: configmap
@@ -23,7 +23,7 @@ entries:
     version: 0.7.0
   - apiVersion: v2
     appVersion: 1.17.1
-    created: "2020-08-15T06:06:47.812295181Z"
+    created: "2020-08-15T09:30:41.368746744Z"
     description: Example of with statement
     digest: 644a31b9ebcd9a1ab6a2c741933397cfbf68673582025e8386de94f600518a0f
     name: configmap
@@ -33,7 +33,7 @@ entries:
     version: 0.6.0
   - apiVersion: v2
     appVersion: 1.17.1
-    created: "2020-08-15T06:06:47.811923522Z"
+    created: "2020-08-15T09:30:41.368144391Z"
     description: Control statment if else  example package
     digest: 56dbe21c33752bbcb8930cfc49382dbf2d32b5eed382ee9c40a9f9585ebfec4a
     name: configmap
@@ -43,7 +43,7 @@ entries:
     version: 0.5.0
   - apiVersion: v2
     appVersion: 1.17.0
-    created: "2020-08-15T06:06:47.811628484Z"
+    created: "2020-08-15T09:30:41.36755366Z"
     description: Pipeline example package
     digest: ea508d05dcbf7cc110a0563b30a61fd81974700223df2082fb311d45e7e61d48
     name: configmap
@@ -53,7 +53,7 @@ entries:
     version: 0.4.0
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2020-08-15T06:06:47.811314476Z"
+    created: "2020-08-15T09:30:41.366954299Z"
     description: Package version 3 for test
     digest: 4aa497ebbe4f837f695e106accd5ba443c862d00e447bc8e7b9f9ab80c46d9ac
     name: configmap
@@ -63,7 +63,7 @@ entries:
     version: 0.3.0
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2020-08-15T06:06:47.810926595Z"
+    created: "2020-08-15T09:30:41.366287954Z"
     description: Package version 3 for test
     digest: 84a01bae98aab0657b73e760bcad24c1fa86cfe35096337069c2fc41aa149690
     name: configmap
@@ -72,10 +72,10 @@ entries:
     - configmap-0.2.0.tgz
     version: 0.2.0
   - apiVersion: v2
-    appVersion: 1.16.0
-    created: "2020-08-15T06:06:47.809178288Z"
-    description: Package version 1 for test
-    digest: f5bde211b90655db489015fa27e7a070cc460b41c02d29e2aea3b3369b593381
+    appVersion: 1.1.0
+    created: "2020-08-15T09:30:41.357323372Z"
+    description: Example of named templates in Helm
+    digest: a445cda321ac529f1c83b1b16526d05296eebda16d39df20733b5dcffc78f574
     name: configmap
     type: application
     urls:
@@ -84,7 +84,7 @@ entries:
   gitchart2:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2020-08-15T06:06:47.813724282Z"
+    created: "2020-08-15T09:30:41.372274146Z"
     description: A Helm chart for Kubernetes
     digest: c8e6287c86e50ac94e58d63b55eb10872771d8e6ddc8e52f1314758a5c775c9d
     name: gitchart2
@@ -95,7 +95,7 @@ entries:
   mychart:
   - apiVersion: v2
     appVersion: 1.1.0
-    created: "2020-08-15T06:06:47.817306141Z"
+    created: "2020-08-15T09:30:41.384190239Z"
     description: A Helm chart for testing nameoverride
     digest: 4fe031211074e42bc94b1e2aec74feb4785e43bdbf82c1445c692bc2a089b926
     name: mychart
@@ -105,7 +105,7 @@ entries:
     version: 0.6.0
   - apiVersion: v2
     appVersion: 1.1.0
-    created: "2020-08-15T06:06:47.815950523Z"
+    created: "2020-08-15T09:30:41.381898369Z"
     description: A Helm chart for testing nameoverride
     digest: 7112e39559abd36cbf90225d62df886d1d7099780894263d7252749a6241b1aa
     name: mychart
@@ -115,7 +115,7 @@ entries:
     version: 0.5.0
   - apiVersion: v2
     appVersion: 1.1.0
-    created: "2020-08-15T06:06:47.815220308Z"
+    created: "2020-08-15T09:30:41.378422901Z"
     description: A Helm chart for Kubernetes
     digest: e9dbc8a295cd408fd3faaa714bf9d12532cb3b3da97a448c86dfb444026e6b36
     name: mychart
@@ -125,7 +125,7 @@ entries:
     version: 0.4.0
   - apiVersion: v2
     appVersion: 1.1.0
-    created: "2020-08-15T06:06:47.814935017Z"
+    created: "2020-08-15T09:30:41.376795082Z"
     description: A Helm chart for Kubernetes
     digest: ef7745b88121370c0685d8427ff6d1561edd187de8c46ae433eb691cd2e20138
     name: mychart
@@ -135,7 +135,7 @@ entries:
     version: 0.3.0
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2020-08-15T06:06:47.814655085Z"
+    created: "2020-08-15T09:30:41.3747437Z"
     description: A Helm chart for Kubernetes
     digest: b2e9b58a5e1de2b02c8c821093b02a4e14d3afdceb7eb946e05517499fc1a907
     name: mychart
@@ -145,7 +145,7 @@ entries:
     version: 0.2.0
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2020-08-15T06:06:47.814399618Z"
+    created: "2020-08-15T09:30:41.373760353Z"
     description: A Helm chart for Kubernetes
     digest: 262c1e921c4d37dacefa4229fce51df6f5f8bfba055a1a4d06044656e51acb49
     name: mychart
@@ -156,7 +156,7 @@ entries:
   mygitchart:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2020-08-15T06:06:47.818105218Z"
+    created: "2020-08-15T09:30:41.386509592Z"
     description: A Helm chart for Git-repo-Practice
     digest: bb9832461f0dc93f1b07bf867bc416e9593a5502f06dd19e09c03aef69e4c926
     name: mygitchart
@@ -167,7 +167,7 @@ entries:
   mysql:
   - apiVersion: v1
     appVersion: 5.7.28
-    created: "2020-08-15T06:06:47.820114383Z"
+    created: "2020-08-15T09:30:41.389970976Z"
     description: Fast, reliable, scalable, and easy to use open-source relational
       database system.
     digest: 8e1c4283911e2d7259ee751ab89be47054d90f4cc5ac6e31d32ffa890e5b6a78
@@ -191,7 +191,7 @@ entries:
     version: 1.6.4
   - apiVersion: v1
     appVersion: 5.7.28
-    created: "2020-08-15T06:06:47.819101104Z"
+    created: "2020-08-15T09:30:41.388425772Z"
     description: Fast, reliable, scalable, and easy to use open-source relational
       database system.
     digest: 75a4b05fec9b5cf6de6850b03b81e7034eef41413357035e6d75d1cb5cff4813
@@ -213,4 +213,4 @@ entries:
     urls:
     - mysql-1.6.3.tgz
     version: 1.6.3
-generated: "2020-08-15T06:06:47.808394031Z"
+generated: "2020-08-15T09:30:41.347239349Z"
