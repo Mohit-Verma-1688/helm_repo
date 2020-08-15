@@ -3,7 +3,7 @@ entries:
   configmap:
   - apiVersion: v2
     appVersion: 1.17.2
-    created: "2020-08-15T09:38:05.826727961Z"
+    created: "2020-08-15T10:21:57.846255933Z"
     description: Example of varialbles in this chart
     digest: 2fd0eed578e9e58837ef6b50d2ba00e7ee9771aa6d473bea9238a111b48e94ad
     name: configmap
@@ -13,7 +13,7 @@ entries:
     version: 0.8.0
   - apiVersion: v2
     appVersion: 1.17.1
-    created: "2020-08-15T09:38:05.825787757Z"
+    created: "2020-08-15T10:21:57.845963028Z"
     description: Example of range in this chart
     digest: 31a6a747d16d65d4b6afbbd41b6e982987580a8d066359af4e402b4bd6137c1f
     name: configmap
@@ -23,7 +23,7 @@ entries:
     version: 0.7.0
   - apiVersion: v2
     appVersion: 1.17.1
-    created: "2020-08-15T09:38:05.824416608Z"
+    created: "2020-08-15T10:21:57.845643705Z"
     description: Example of with statement
     digest: 644a31b9ebcd9a1ab6a2c741933397cfbf68673582025e8386de94f600518a0f
     name: configmap
@@ -33,7 +33,7 @@ entries:
     version: 0.6.0
   - apiVersion: v2
     appVersion: 1.17.1
-    created: "2020-08-15T09:38:05.823907082Z"
+    created: "2020-08-15T10:21:57.845340485Z"
     description: Control statment if else  example package
     digest: 56dbe21c33752bbcb8930cfc49382dbf2d32b5eed382ee9c40a9f9585ebfec4a
     name: configmap
@@ -43,7 +43,7 @@ entries:
     version: 0.5.0
   - apiVersion: v2
     appVersion: 1.17.0
-    created: "2020-08-15T09:38:05.82341009Z"
+    created: "2020-08-15T10:21:57.843620955Z"
     description: Pipeline example package
     digest: ea508d05dcbf7cc110a0563b30a61fd81974700223df2082fb311d45e7e61d48
     name: configmap
@@ -53,7 +53,7 @@ entries:
     version: 0.4.0
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2020-08-15T09:38:05.822743808Z"
+    created: "2020-08-15T10:21:57.84324539Z"
     description: Package version 3 for test
     digest: 4aa497ebbe4f837f695e106accd5ba443c862d00e447bc8e7b9f9ab80c46d9ac
     name: configmap
@@ -63,7 +63,7 @@ entries:
     version: 0.3.0
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2020-08-15T09:38:05.822341947Z"
+    created: "2020-08-15T10:21:57.842803637Z"
     description: Package version 3 for test
     digest: 84a01bae98aab0657b73e760bcad24c1fa86cfe35096337069c2fc41aa149690
     name: configmap
@@ -71,10 +71,21 @@ entries:
     urls:
     - configmap-0.2.0.tgz
     version: 0.2.0
+  configmap-include:
+  - apiVersion: v2
+    appVersion: 1.1.0
+    created: "2020-08-15T10:21:57.846551895Z"
+    description: Example of named templates in Helm
+    digest: 9d191dcaf65f528b49e92058347e08c3be85464b2dc08884d24183186f56f13a
+    name: configmap-include
+    type: application
+    urls:
+    - configmap-include-0.1.0.tgz
+    version: 0.1.0
   configmap-t:
   - apiVersion: v2
     appVersion: 1.1.0
-    created: "2020-08-15T09:38:05.827248274Z"
+    created: "2020-08-15T10:21:57.846796361Z"
     description: Example of named templates in Helm
     digest: 30abdba2efd95cd96fc9ab5404d058acf6f6519c40f73f1d0fda06b388707018
     name: configmap-t
@@ -85,7 +96,7 @@ entries:
   gitchart2:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2020-08-15T09:38:05.827999474Z"
+    created: "2020-08-15T10:21:57.847341017Z"
     description: A Helm chart for Kubernetes
     digest: c8e6287c86e50ac94e58d63b55eb10872771d8e6ddc8e52f1314758a5c775c9d
     name: gitchart2
@@ -96,7 +107,7 @@ entries:
   mychart:
   - apiVersion: v2
     appVersion: 1.1.0
-    created: "2020-08-15T09:38:05.838075452Z"
+    created: "2020-08-15T10:21:57.849049331Z"
     description: A Helm chart for testing nameoverride
     digest: 4fe031211074e42bc94b1e2aec74feb4785e43bdbf82c1445c692bc2a089b926
     name: mychart
@@ -106,7 +117,7 @@ entries:
     version: 0.6.0
   - apiVersion: v2
     appVersion: 1.1.0
-    created: "2020-08-15T09:38:05.83767792Z"
+    created: "2020-08-15T10:21:57.848679874Z"
     description: A Helm chart for testing nameoverride
     digest: 7112e39559abd36cbf90225d62df886d1d7099780894263d7252749a6241b1aa
     name: mychart
@@ -116,7 +127,7 @@ entries:
     version: 0.5.0
   - apiVersion: v2
     appVersion: 1.1.0
-    created: "2020-08-15T09:38:05.837092265Z"
+    created: "2020-08-15T10:21:57.8482303Z"
     description: A Helm chart for Kubernetes
     digest: e9dbc8a295cd408fd3faaa714bf9d12532cb3b3da97a448c86dfb444026e6b36
     name: mychart
@@ -126,7 +137,7 @@ entries:
     version: 0.4.0
   - apiVersion: v2
     appVersion: 1.1.0
-    created: "2020-08-15T09:38:05.830728701Z"
+    created: "2020-08-15T10:21:57.848069071Z"
     description: A Helm chart for Kubernetes
     digest: ef7745b88121370c0685d8427ff6d1561edd187de8c46ae433eb691cd2e20138
     name: mychart
@@ -136,7 +147,7 @@ entries:
     version: 0.3.0
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2020-08-15T09:38:05.829326199Z"
+    created: "2020-08-15T10:21:57.847902306Z"
     description: A Helm chart for Kubernetes
     digest: b2e9b58a5e1de2b02c8c821093b02a4e14d3afdceb7eb946e05517499fc1a907
     name: mychart
@@ -146,7 +157,7 @@ entries:
     version: 0.2.0
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2020-08-15T09:38:05.828718581Z"
+    created: "2020-08-15T10:21:57.847692142Z"
     description: A Helm chart for Kubernetes
     digest: 262c1e921c4d37dacefa4229fce51df6f5f8bfba055a1a4d06044656e51acb49
     name: mychart
@@ -157,7 +168,7 @@ entries:
   mygitchart:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2020-08-15T09:38:05.838955037Z"
+    created: "2020-08-15T10:21:57.849737058Z"
     description: A Helm chart for Git-repo-Practice
     digest: bb9832461f0dc93f1b07bf867bc416e9593a5502f06dd19e09c03aef69e4c926
     name: mygitchart
@@ -168,7 +179,7 @@ entries:
   mysql:
   - apiVersion: v1
     appVersion: 5.7.28
-    created: "2020-08-15T09:38:05.84232658Z"
+    created: "2020-08-15T10:21:57.853236428Z"
     description: Fast, reliable, scalable, and easy to use open-source relational
       database system.
     digest: 8e1c4283911e2d7259ee751ab89be47054d90f4cc5ac6e31d32ffa890e5b6a78
@@ -192,7 +203,7 @@ entries:
     version: 1.6.4
   - apiVersion: v1
     appVersion: 5.7.28
-    created: "2020-08-15T09:38:05.840828922Z"
+    created: "2020-08-15T10:21:57.85145897Z"
     description: Fast, reliable, scalable, and easy to use open-source relational
       database system.
     digest: 75a4b05fec9b5cf6de6850b03b81e7034eef41413357035e6d75d1cb5cff4813
@@ -214,4 +225,4 @@ entries:
     urls:
     - mysql-1.6.3.tgz
     version: 1.6.3
-generated: "2020-08-15T09:38:05.820077987Z"
+generated: "2020-08-15T10:21:57.842224461Z"
