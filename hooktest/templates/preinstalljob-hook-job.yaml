@@ -12,7 +12,7 @@ spec:
         image: busybox
         imagePullPolicy: IfNotPresent
         
-        command: ['sh', '-c', 'echo pre-install Job Pod is Running ; sleep 3']
+        command: ['sh', '-c', 'echo pre-install Job Pod is Running ; sleep 10']
     
       restartPolicy: OnFailure
       terminationGracePeriodSeconds: 0
