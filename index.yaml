@@ -2,23 +2,13 @@ apiVersion: v1
 entries:
   configmap:
   - apiVersion: v2
-    appVersion: 1.17.3
-    created: "2021-07-21T08:53:31.300608695Z"
-    description: Learning chart with concepts and notes.
-    digest: 11cce7da96a1847eddea84f60134e0e11b5b409ebf93264b55382bb40c03d72e
-    name: configmap
-    type: application
-    urls:
-    - configmap-0.9.0.tgz
-    version: 0.9.0
-  - apiVersion: v2
     appVersion: 1.1.0
-    created: "2021-07-21T08:53:31.300171147Z"
-    description: Learning chart for knowledge.
-    digest: 8acb5c61dc2817daef320242cfe1d6e3e7b789e229f88b5a0eb16102c88fa0d5
+    created: "2021-07-21T08:59:09.57567778Z"
+    description: Learning chart with concepts and notes.
+    digest: c363753c5ad2167a35adda1ea7083b0a4e6a814f9ec710d421531a44c8236898
     name: configmap
     type: application
     urls:
     - configmap-0.1.0.tgz
     version: 0.1.0
-generated: "2021-07-21T08:53:31.298773959Z"
+generated: "2021-07-21T08:59:09.575039967Z"

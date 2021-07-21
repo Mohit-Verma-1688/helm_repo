@@ -1,6 +1,6 @@
 apiVersion: v2
 name: configmap
-description: Learning chart for knowledge. 
+description: Learning chart with concepts and notes. 
 
 # A chart can be either an 'application' or a 'library' chart.
 #
