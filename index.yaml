@@ -3,7 +3,7 @@ entries:
   configmap:
   - apiVersion: v2
     appVersion: 1.1.0
-    created: "2021-07-21T08:59:09.57567778Z"
+    created: "2021-07-21T09:12:30.580675032Z"
     description: Learning chart with concepts and notes.
     digest: c363753c5ad2167a35adda1ea7083b0a4e6a814f9ec710d421531a44c8236898
     name: configmap
@@ -11,4 +11,15 @@ entries:
     urls:
     - configmap-0.1.0.tgz
     version: 0.1.0
-generated: "2021-07-21T08:59:09.575039967Z"
+  configmap-include:
+  - apiVersion: v2
+    appVersion: 1.1.0
+    created: "2021-07-21T09:12:30.580986238Z"
+    description: Example of named templates in Helm
+    digest: 7fd3912a2483b5b64d564921aeea49cce71ebea3c04e9081fe33a3cef988759f
+    name: configmap-include
+    type: application
+    urls:
+    - configmap-include-0.1.0.tgz
+    version: 0.1.0
+generated: "2021-07-21T09:12:30.580171256Z"
