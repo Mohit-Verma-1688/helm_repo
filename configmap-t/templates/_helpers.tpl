@@ -68,6 +68,7 @@ Create the name of the service account to use
 {{/*
 
 */}}
+
  {{- define "mychart.systemlables" }}
   labels:
    drive: ssd
@@ -80,4 +81,3 @@ Create the name of the service account to use
 app_name: {{ .Chart.Name }}
 app_version: "{{ .Chart.Version }}"
  {{- end -}}
-
