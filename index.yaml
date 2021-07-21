@@ -3,7 +3,7 @@ entries:
   configmap:
   - apiVersion: v2
     appVersion: 1.1.0
-    created: "2021-07-21T10:07:59.012344584Z"
+    created: "2021-07-21T10:11:19.00114081Z"
     description: Learning chart with concepts and notes.
     digest: c363753c5ad2167a35adda1ea7083b0a4e6a814f9ec710d421531a44c8236898
     name: configmap
@@ -14,7 +14,7 @@ entries:
   configmap-include:
   - apiVersion: v2
     appVersion: 1.1.0
-    created: "2021-07-21T10:07:59.012885239Z"
+    created: "2021-07-21T10:11:19.002167791Z"
     description: Example of named templates in Helm
     digest: 903295e9422f7d7c86f3af12a044d9b6be496e19aeff8f8a331c68a9fa39b3df
     name: configmap-include
@@ -24,7 +24,7 @@ entries:
     version: 0.2.0
   - apiVersion: v2
     appVersion: 1.1.0
-    created: "2021-07-21T10:07:59.012593575Z"
+    created: "2021-07-21T10:11:19.00180351Z"
     description: Example of named templates in Helm
     digest: 7fd3912a2483b5b64d564921aeea49cce71ebea3c04e9081fe33a3cef988759f
     name: configmap-include
@@ -35,7 +35,17 @@ entries:
   hooktest:
   - apiVersion: v2
     appVersion: 1.1.0
-    created: "2021-07-21T10:07:59.01407523Z"
+    created: "2021-07-21T10:11:19.009847764Z"
+    description: A Helm chart for hooktesting
+    digest: 59fd23fbef555e12ad2723841965522ed478867ddbcf29c34d2dafc2c3b7268b
+    name: hooktest
+    type: application
+    urls:
+    - hooktest-0.3.0.tgz
+    version: 0.3.0
+  - apiVersion: v2
+    appVersion: 1.1.0
+    created: "2021-07-21T10:11:19.006201034Z"
     description: A Helm chart for hooktesting
     digest: 4b23504151793e899344685dea8fe6a642a4894b79e126d632a3b0cddb250d5d
     name: hooktest
@@ -45,7 +55,7 @@ entries:
     version: 0.2.0
   - apiVersion: v2
     appVersion: 1.1.0
-    created: "2021-07-21T10:07:59.013430751Z"
+    created: "2021-07-21T10:11:19.003474821Z"
     description: A Helm chart for hooktesting
     digest: d0428afd77193c2a6e5a6c98ff10f134bbc3f93f929f4e2162f6066849d70523
     name: hooktest
@@ -53,4 +63,4 @@ entries:
     urls:
     - hooktest-0.1.0.tgz
     version: 0.1.0
-generated: "2021-07-21T10:07:59.011791347Z"
+generated: "2021-07-21T10:11:19.00042308Z"
