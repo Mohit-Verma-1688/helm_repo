@@ -3,7 +3,7 @@ entries:
   configmap:
   - apiVersion: v2
     appVersion: 1.1.0
-    created: "2021-07-21T09:49:17.125657546Z"
+    created: "2021-07-21T10:01:02.596788732Z"
     description: Learning chart with concepts and notes.
     digest: c363753c5ad2167a35adda1ea7083b0a4e6a814f9ec710d421531a44c8236898
     name: configmap
@@ -14,7 +14,7 @@ entries:
   configmap-include:
   - apiVersion: v2
     appVersion: 1.1.0
-    created: "2021-07-21T09:49:17.126944424Z"
+    created: "2021-07-21T10:01:02.59733433Z"
     description: Example of named templates in Helm
     digest: 903295e9422f7d7c86f3af12a044d9b6be496e19aeff8f8a331c68a9fa39b3df
     name: configmap-include
@@ -24,7 +24,7 @@ entries:
     version: 0.2.0
   - apiVersion: v2
     appVersion: 1.1.0
-    created: "2021-07-21T09:49:17.125961415Z"
+    created: "2021-07-21T10:01:02.597072361Z"
     description: Example of named templates in Helm
     digest: 7fd3912a2483b5b64d564921aeea49cce71ebea3c04e9081fe33a3cef988759f
     name: configmap-include
@@ -35,12 +35,12 @@ entries:
   hooktest:
   - apiVersion: v2
     appVersion: 1.1.0
-    created: "2021-07-21T09:49:17.128406105Z"
+    created: "2021-07-21T10:01:02.599789569Z"
     description: A Helm chart for hooktesting
-    digest: 25a15936cacc7777eaaa3557b162fcf4566c5c80e745dabeed264e427af9f41b
+    digest: d0428afd77193c2a6e5a6c98ff10f134bbc3f93f929f4e2162f6066849d70523
     name: hooktest
     type: application
     urls:
     - hooktest-0.1.0.tgz
     version: 0.1.0
-generated: "2021-07-21T09:49:17.125098546Z"
+generated: "2021-07-21T10:01:02.596194637Z"

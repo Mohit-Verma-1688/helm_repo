@@ -4,7 +4,6 @@ metadata:
   name: preinstalljob-hook-job
   annotations:
     "helm.sh/hook": "pre-install"
-
 spec:
   template:
     spec:      
