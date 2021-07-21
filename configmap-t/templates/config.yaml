@@ -1,0 +1,14 @@
+apiVersion: v1
+data:
+  home: {{ .Values.home }}
+  name: {{ .Values.name }}
+  release: {{ .Release.Name }}  
+kind: ConfigMap
+metadata:
+  name: {{ include "configmap.fullname" .  }}
+  # below i am importing using template from _helper file. this . is needed for passing the scope globl built in. Here we need to make sure that original values in template are perfactly alinged in advance.
+{{- template "mychart.systemlables" . }}
+
+ # below is the exmaple fo tempalte using includie. Below params need to be considered carefully and cannot be moved like template. This allows use of file universaly.
+  labels:
+{{ include "mychart.version" . | indent 4 }}

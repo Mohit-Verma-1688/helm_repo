@@ -1,0 +1,49 @@
+apiVersion: v1
+data:
+  home: {{ .Values.home }}
+  name: {{ .Values.name }}
+  release: {{ .Release.Name }}  
+  project: {{ upper .Values.projectCode }}
+  zone: {{ upper .Values.infra.zone }}
+  region: {{ quote .Values.infra.region }}
+  # testing the pipeline 
+  pipeline: {{ .Values.projectCode | upper | quote }}
+  now: {{ now | date "2006-01-02" | quote }}
+  # testing of the control flow if else
+  {{- if eq .Values.infra.region "us-e" }}
+  ha: test
+  {{- end }}
+  # testing of with scope in helm and using built-in object in with varaible definition it is easy to degine global scope in with statments
+  {{- $relname := .Release.Name -}} 
+  {{- with .Values.tags }}
+  Machine-Type: {{ .machine | default "NA" | quote }}
+  Rack-ID: {{ .rack | quote }}
+  Storage-Type: {{ .drive | upper | quote }}
+  Video-Card: {{ .vcard | quote }}
+  release: {{ $relname }}
+   {{- end }}
+  # testing of range in helm
+  Lang-used: |-
+  {{- range .Values.LangUsed }}
+   - {{ . | title | quote }} 
+  {{- end }}
+  tags: |-
+     {{- range $key, $value := .Values.tags }}
+   {{ $key }} : {{ $value }} 
+     {{- end }} 
+  LangUsed1: |-
+   {{- range $index, $topping := .Values.LangUsed }}
+   - {{ $index }} : {{ $topping }}
+   {{- end }}
+kind: ConfigMap
+metadata:
+  name: {{ include "configmap.fullname" . }}
+  namespace: default
+  labels:
+ # intent is to show the spacing importance and $ is used to define global variable scope 
+ {{- with .Values.tags }}
+    first: {{ .machine }}
+    second: {{ .rack }}
+    third: {{ .drive }}
+ {{- end }}
+    app.kubernetes.io/instance: "{{ $.Release.Name }}-{{ $.Chart.Name }}"

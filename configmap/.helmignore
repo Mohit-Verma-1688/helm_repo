@@ -1,0 +1,6 @@
+service.yaml
+ingress.yaml
+hpa.yaml
+deployment.yaml
+serviceaccount.yaml
+
