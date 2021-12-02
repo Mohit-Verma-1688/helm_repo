@@ -1,0 +1,10 @@
+## mysql image version
+## ref: https://hub.docker.com/r/library/mysql/tags/
+##
+image: "mysql"
+imageTag: "5.8.30"
+
+strategy:
+  type: Recreate
+
+
